@@ -1,0 +1,54 @@
+/* Hoja de estilo que aplica un GRID LAYOUT a una sección que contiene un titulo, un párrafo, una imagen y un video */
+/*Especificidad: 0,0,1*/
+section{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgba(236, 129, 182, 0.199);
+    color: white;
+    justify-items: center;
+}
+
+/*Especificidad: 0,0,2*/
+section>h3{
+    grid-column-start:1;
+    grid-column-end: 3;
+    text-align: center;
+    font-size: 30px;
+    color:rgb(236, 129, 183);
+    background-color:rgba(236, 129, 182, 0);
+}
+
+/*Especificidad: 0,0,2*/
+section>p{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+/*Especificidad: 0,0,2*/
+section>figure{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+/*Especificidad: 0,0,2*/
+section>video{
+    display: block;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 80%;
+    padding: 5px;
+}
+
+/*Especificidad: 0,0,1*/
+img{
+    width: 100%;
+}

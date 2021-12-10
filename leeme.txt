@@ -1,0 +1,32 @@
+ESTRUCTURA COMÚN PARA TODOS LOS HTML:
+- Todos los html tienen una estructura común (comun.css) que consiste en un Grid Layout que se emplea en el body, dividiendo el body en 4 partes: header, nav, main, footer.
+- El fondo del body es de color negro.
+- El fondo del nav es una foto de flores.
+- El elemento del nav con color rosa indicará el html en el que te encuentras en el momento.
+- Se emplea letra de color rosa en h1, h2 y h3.
+
+INICIO (index.html):
+- En este documento muestro mi información personal (grado universitario, estudiante de máster y fecha de nacimiento) y mi canción favorita (video).
+- Estructura:
+-- Se utilizan dos FlexBox Layout: el primero, se aplica en la primera sección que contiene un título, tres párrafos y una imagen;
+y el segundo, se aplica en la segunda sección que contiene un título y un vídeo.
+- Hojas CSS utilizadas: comun.css, flexbox_titulo_parrafos_imagen.css, flexbox_titulo_video.css.
+
+AFICIONES (aficiones.html):
+- En este documento muestro mis dos aficiones (viajar y disfrutar con las personas que quieres).
+- Estructura:
+-- Se utilizan dos Grid Layout: el primero, se aplica en la primera sección que contiene un título, un párrafo, dos fotos y un vídeo; y el segundo,
+se aplica en la segunda sección que contiene un título, un párrafo y tres fotos.
+- Hojas CSS utilizadas: comun.css, grid_titulo_p_tresfotos.css, grid_titulo_p_dosfotos_unvideo.css.
+
+SERIES (series.html):
+- En este documento muestro mis dos series favoritas.
+- Estructura:
+-- Se utilizan dos Grid Layout que se aplican a las dos secciones que contienen un título, un párrafo, una foto y un vídeo.
+- Hojas CSS utilizadas: comun.css, grid_titulo_p_foto_video.css.
+
+MÚSICA (musica.html):
+- En este documento muestro los tres géneros de música que me gustan y una canción de cada género.
+- Estructura:
+-- Se utiliza un Grid Layout que se aplica en el "main" que contiene tres secciones.
+- Hojas CSS utilizadas: comun.css, grid_main_tressecciones.css.
